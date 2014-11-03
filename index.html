@@ -1,17 +1,42 @@
 <html>
-<head>
-<title>McGain</title>
-</head>
-<body>
-<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
-<div class="fullscreen background" style="background-image:url('http://mcga.in/back_beach_1.jpg');" data-img-width="6016" data-img-height="4016">
-  <div class="content-a">
-    <div class="content-b">
+  <head>
+    <title>McGain</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Exo+2:400,100' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+    <style media="screen" type="text/css">
+      html {
+        background: url('http://mcga.in/back_beach_1.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      .center {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        margin: auto;
+      }
+      .center p {
+        color: white;
+        font-family: 'Exo 2', sans-serif;
+      }
+    </style>
+    <div class="center">
+      <p>
       The McGain family portal
+      </p>
     </div>
-  </div>
-</div>
-<script src="cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
-<script src"/fullscreen.js"></script>
-</body>
+    <script src="cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
+    <!-- <script src"/fullscreen.js"></script> -->
+  </body>
 </html>
+
